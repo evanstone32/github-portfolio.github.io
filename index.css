@@ -440,6 +440,29 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+
+.work__box-left{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 900px) {
+    .work__box-left {
+        align-items: initial;
+        flex-direction: column;
+    }
+}
+
+.work__box-left:not(:last-child) {
+    margin-bottom: 25rem;
+}
+
+@media(max-width: 500px) {
+    .work__box-left:not(:last-child) {
+        margin-bottom: 20rem;
+    }
+}
+
 .work__box {
     display: flex;
     align-items: center;
@@ -496,6 +519,17 @@ body:not(.user-is-tabbing) a:focus {
     .work__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
+    }
+}
+
+.work__image-box-left {
+    margin-bottom: var(--gutter-normal);
+}
+
+@media(min-width: 901px) {
+    .work__image-box-left {
+        flex: 1;
+        margin: 0 10rem 0 0;
     }
 }
 

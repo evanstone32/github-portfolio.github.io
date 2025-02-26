@@ -1,0 +1,191 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Evan Stone | A Senior Computer Science Student from UNC Charlotte.
+  </title>
+
+  <meta name="description" content="I am a senior computer science student at UNCC.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Evan Stone" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index.html" class="nav__link">Return Home</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Computer Science Message Board</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>
+            This web application provides a platform for users to discuss
+             questions about the computer science field. Built with Pythons Flask
+              for the backend, HTML/CSS and bootstap for the frontend and
+               a MySQL database to store and manage user information, posts,
+                and comments efficiently.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Features</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Login/Sign up</h3>
+              <p>
+                The user was allowed to either create a new account or login to an 
+                already existing account. This data was then stored/queried from the
+                MySQL database that was linked to this site.
+              </p>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/git-portfolio-images/message-board-create-user.png" class="work__image" alt="Message Home Page" />
+            </div>
+          </div>
+
+
+          <div class="work__box-left">
+            <div class="work__image-box-left">
+              <img src="./images/git-portfolio-images/message-board-user.png" class="work__image" alt="Message Home Page" />
+            </div>
+            <div class="work__text">
+                <h3>Profile Page</h3>
+                <p>
+                  The user was then allowed to view their info by navigating to the
+                  profile page. This info was pulled from the database based on the 
+                  currently logged in user.
+                </p>
+              </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Choose/Create Forum</h3>
+              <p>
+                User can choose from a list of forums that were created by previous users.
+                If the user cannot find any forms that they like then they can choose to create a new 
+                one. Once a form is selected users can view, create, and comment on posts within that forum.
+              </p>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/git-portfolio-images/message-board-fourm.png" class="work__image" alt="Message Home Page" />
+            </div>
+          </div>
+
+
+          <div class="work__box-left">
+            <div class="work__image-box-left">
+              <img src="./images/git-portfolio-images/message-board-user.png" class="work__image" alt="Message Home Page" />
+            </div>
+            <div class="work__text">
+                <h3>Create Posts/Comments</h3>
+                <p>
+                    The user could choose a forum topic that they liked and 
+                    post a dicussion on this forum. Other users could see these
+                    posts and posts their own comments on them. 
+                </p>
+              </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <!-- ***** About ***** -->
+  </main>
+
+  <!-- ***** Contact ***** -->
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Return to Home Page</h2>
+        <a href="index.html" class="btn">Home Page</a>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/evanstone32" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="www.linkedin.com/in/evan-stone-83269a301">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
